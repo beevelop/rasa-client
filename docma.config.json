@@ -1,0 +1,8 @@
+{
+  "dest": "docs",
+  "src": "*.js",
+  "app": {
+    "title": "Rasa core HTTP client for Node.js",
+    "server": "github"
+  }
+}

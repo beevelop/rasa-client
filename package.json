@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "xo",
-    "docs": "docma -d docs -s *.js",
+    "docs": "docma -c docma.config.json",
     "xo": "xo index.js --space=2 --no-semicolon --fix"
   },
   "keywords": [
