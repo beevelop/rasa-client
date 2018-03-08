@@ -6,7 +6,8 @@
   "scripts": {
     "test": "xo",
     "docs": "docma -c docma.config.json",
-    "xo": "xo index.js --space=2 --no-semicolon --fix"
+    "xo": "xo index.js --space=2 --no-semicolon --fix",
+    "changelog": "clgt -u ."
   },
   "keywords": [
     "rasa",

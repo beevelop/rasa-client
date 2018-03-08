@@ -5,5 +5,38 @@
     "base": "/rasa-client/",
     "title": "Rasa HTTP client",
     "server": "github"
+  },
+  "template": {
+    "options": {
+      "navItems": [
+        {
+          "label": "Download",
+          "iconClass": "ico-md ico-download",
+          "items": [
+            {
+              "label": "<code>npm i --save rasa-client</code>",
+              "href": "#"
+            },
+            {
+              "label": "Rasa client releases",
+              "href": "https://github.com/beevelop/rasa-client/releases/"
+            },
+            {
+              "separator": true
+            },
+            {
+              "label": "Changelog",
+              "href": "https://github.com/beevelop/rasa-client/blob/master/CHANGELOG.md"
+            }
+          ]
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/beevelop/rasa-client",
+          "target": "_blank",
+          "iconClass": "ico-md ico-github"
+        }
+      ]
+    }
   }
 }

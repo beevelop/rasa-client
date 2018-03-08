@@ -22,7 +22,7 @@ npm install --save rasa-client
 const RasaClient = require('rasa-client')
 const rc = new RasaClient('http://localhost:5005')
 rc.parse('Hello world').then((res) => console.log)
+rc.getVersion().then((res) => console.log)
 ```
 
-## Documentation
-@todo: Add link to docs
+## [Documentation](https://beevelop.github.io/rasa-client/)
