@@ -2,6 +2,7 @@
   "dest": "docs",
   "src": "*.js",
   "app": {
+    "base": "/rasa-client/",
     "title": "Rasa core HTTP client for Node.js",
     "server": "github"
   }
