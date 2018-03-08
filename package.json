@@ -1,0 +1,31 @@
+{
+  "name": "rasa-client",
+  "version": "0.8.3",
+  "description": "Rasa Core HTTP client (unofficial)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo",
+    "docs": "docma -d docs -s *.js",
+    "xo": "xo index.js --space=2 --no-semicolon --fix"
+  },
+  "keywords": [
+    "rasa",
+    "nlu",
+    "http",
+    "rest",
+    "core"
+  ],
+  "author": "Maik Hummel <hi@beevelop.com> (https://beevelop.com)",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^8.2.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  }
+}
