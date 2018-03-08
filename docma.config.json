@@ -3,7 +3,7 @@
   "src": "*.js",
   "app": {
     "base": "/rasa-client/",
-    "title": "Rasa core HTTP client for Node.js",
+    "title": "Rasa HTTP client",
     "server": "github"
   }
 }
