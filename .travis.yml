@@ -1,0 +1,17 @@
+sudo: required
+
+language: nodejs
+
+services:
+  - docker
+
+before_install:
+  - echo "rct stands for „Rasa client tester“"
+  - docker build -f test.Dockerfile -t rct .
+  - docker run -d -p 5005:5005 --name rct rct
+  - docker logs -f rct &
+  - sleep 30
+
+script:
+  - npm i
+  - npm test
