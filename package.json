@@ -4,7 +4,7 @@
   "description": "Rasa Core HTTP client (unofficial)",
   "main": "index.js",
   "scripts": {
-    "test": "xo",
+    "test": "ava",
     "docs": "docma -c docma.config.json",
     "xo": "xo index.js --space=2 --no-semicolon --fix",
     "changelog": "clgt -u ."
@@ -23,6 +23,7 @@
     "lodash": "^4.17.5"
   },
   "devDependencies": {
+    "ava": "^1.0.0-beta.3",
     "xo": "^0.20.3"
   },
   "xo": {
