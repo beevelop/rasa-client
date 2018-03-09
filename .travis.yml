@@ -10,9 +10,9 @@ services:
 before_install:
   - echo "rct stands for „Rasa client tester“"
   - docker build -f test.Dockerfile -t rct .
-  - docker run -d -p 5005:5005 --name rct rct
+  - docker run -d -p 127.0.0.1:5005:5005 --name rct rct
   - docker logs -f rct &
-  - sleep 30
+  - travis_wait 3 sleep 180
 
 script:
   - npm i
