@@ -24,19 +24,19 @@ class RasaClient {
       _.set(opts, 'query.token', this.token)
     }
     _.set(opts, 'json', true)
-    return got(url, opts)
+    return got(`${this.endpoint}${url}`, opts).then(res => res.body)
   }
 
-  _get(urlEndpoint, query) {
-    this._request(urlEndpoint, {query})
+  _get(urlEndpoint, query) {  
+    return this._request(urlEndpoint, {query})
   }
 
   _post(urlEndpoint, body) {
-    this._request(urlEndpoint, {method: 'POST', body})
+    return this._request(urlEndpoint, {method: 'POST', body})
   }
 
   _put(urlEndpoint, body) {
-    this._request(urlEndpoint, {method: 'PUT', body})
+    return this._request(urlEndpoint, {method: 'PUT', body})
   }
 
   /**
@@ -105,7 +105,7 @@ class RasaClient {
    */
   postEvents(events, senderId) {
     senderId = senderId || 'default'
-    return this._put(`/conversations/${senderId}/tracker/events`, events)
+    return this._post(`/conversations/${senderId}/tracker/events`, events)
   }
 
   /**
