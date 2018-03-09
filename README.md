@@ -1,3 +1,4 @@
+[![Travis](https://shields.beevelop.com/travis/beevelop/rasa-client.svg?style=flat-square)](https://travis-ci.org/beevelop/rasa-client)
 [![npm](https://shields.beevelop.com/npm/v/rasa-client.svg?style=flat-square)](https://www.npmjs.com/package/rasa-client)
 [![Release](https://shields.beevelop.com/github/release/beevelop/rasa-client.svg?style=flat-square)](https://github.com/beevelop/rasa-client/releases)
 [![xo-code-style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
