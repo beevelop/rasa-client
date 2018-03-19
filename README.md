@@ -2,7 +2,8 @@
 [![npm](https://shields.beevelop.com/npm/v/rasa-client.svg?style=flat-square)](https://www.npmjs.com/package/rasa-client)
 [![Release](https://shields.beevelop.com/github/release/beevelop/rasa-client.svg?style=flat-square)](https://github.com/beevelop/rasa-client/releases)
 [![xo-code-style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
-![Badges](https://shields.beevelop.com/badge/badges-6-brightgreen.svg?style=flat-square)
+![Status](https://shields.beevelop.com/badge/stability-experimental-green.svg?style=flat-square)
+![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
 # Rasa Core HTTP Client for Node.js :bird:
