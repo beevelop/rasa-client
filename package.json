@@ -19,7 +19,7 @@
   "author": "Maik Hummel <hi@beevelop.com> (https://beevelop.com)",
   "license": "MIT",
   "dependencies": {
-    "got": "^8.2.0",
+    "got": "^9.5.1",
     "lodash": "^4.17.5"
   },
   "devDependencies": {
